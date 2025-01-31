@@ -23,7 +23,7 @@ This tool **automatically patches** the affected bytes to restore 100% compatibi
 ## Installation
 
 ### **Precompiled Binary**
-You can download the latest release from the [Releases](https://github.com/YOUR_USERNAME/narc-btnf-fixer/releases) page.
+You can download the latest release from the [Releases](https://github.com/hushrom/narc-btnf-fixer/releases) page.
 
 ### **Building from Source**
 Requires **Rust** installed. To build:
