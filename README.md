@@ -9,6 +9,8 @@ Kiwi.ds can extract/unpack and repack `.narc` files into folders, making it conv
 
 This tool **automatically patches** the affected bytes to restore 100% compatibility with Tinke.
 
+![Screenshot](TinkeMModelNarcUncompressionFailed.png)
+
 ## Usage
 
 ### **How to Use**
