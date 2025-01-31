@@ -15,8 +15,17 @@ This tool **automatically patches** the affected bytes to restore 100% compatibi
 
 ### **How to Use**
 1. **Import a `mmodel.narc` file** (or `1.narc`).
+
+![Screenshot](narc-btnf-fixer-image-1.png)
+
 2. Click **"Fix and Export"**.
+
+![Screenshot](narc-btnf-fixer-image-2.png)
+
 3. A fixed version of the NARC file will be saved with `_fixed.narc` appended to the filename.
+
+![Screenshot](narc-btnf-fixer-image-3.png)
+
 
 ### **What This Fixes**
 - Modifies **bytes at offset `0x1B1C - 0x1B23`**.
