@@ -1,0 +1,23 @@
+[package]
+name = "narc-btnf-fixer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.24"       # GUI framework
+egui = "0.24"
+rfd = "0.12"          # File dialogs
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["windef", "winuser"] }
+
+
+[profile.release]
+strip = true  # Automatically strip symbols from the binary.
+opt-level = "z"  # Optimise for size.
+lto = true  # Enable link time optimisation
+codegen-units = 1 # Maximise size reduction optimisations
+
+[[bin]]
+name = "narc-btnf-fixer"
+path = "src/main.rs"
