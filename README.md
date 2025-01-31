@@ -40,6 +40,6 @@ You can download the latest release from the [Releases](https://github.com/hushr
 Requires **Rust** installed. To build:
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/narc-btnf-fixer.git
+git clone https://github.com/hushrom/narc-btnf-fixer.git
 cd narc-btnf-fixer
 cargo build --release
